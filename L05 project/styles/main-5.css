@@ -1,0 +1,59 @@
+* { box-sizing: border-box;}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+   background-color: whitesmoke;
+}
+
+header, nav, main, footer {
+  max-width: 600px;
+}
+
+header {}
+header h1 {}
+header img {}
+header .subheading {}
+
+nav {
+    
+}
+nav button { display: }
+nav ul { 
+
+}
+nav ul li {
+    text-decoration: none;
+    font-family: helvetica;
+    float: left;
+}
+nav ul li a {
+display: inline-block;
+}
+nav ul li.active a {background-color: #4caf50}
+nav ul li a:hover {background-color: #111;}
+
+section.forecast {
+    display: none;
+}
+
+main {
+    margin: auto;
+}
+main h2 {color: cadetblue}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img {}
+article p.town-article img {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.art1 {
+    padding: 40px;
+    margin: 20px;
+}
+footer { margin: 40px;} 
